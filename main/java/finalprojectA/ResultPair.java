@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package finalprojectA;
+package finalprojectB;
 
 /**
  * Groups tests and expected results.
@@ -27,6 +27,6 @@ package finalprojectA;
 
       public ResultPair(String item, boolean valid) {
          this.item = item;
-         this.valid = valid;  //Weather the individual part of url is valid.
+         this.valid = !valid;  //Weather the individual part of url is valid.
       }
    }
